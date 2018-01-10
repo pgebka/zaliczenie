@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(66, 66, 66);
+    
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+	font-weight: 400;
+	
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.banner {
+	background-image: url(banner.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+    min-height: 100vmin;
+}
+
+    
+    .banner-text {
+        padding-top: 15%;
+        padding-right: 25%;
+        float: right;
+        
+    }
+    }
+    .banner-text h1 {
+        color: #393939;       
+        font-size: 23px;
+        font-weight: 400;
+    }
+    .banner-text p {
+        color: #393939;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 1%;
+    }
+
+    .btn {
+        border: 1px solid rgba(0, 0, 0, 0.75);
+        margin-top: 20px;
+        color: #2a2a2a;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        border-radius: 0px;
+        padding: 1.5% 3%;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    .btn:hover, .btn:focus {
+        background-color: #2a2a2a;
+        color: #fff;
+    }
+    .btn-large {
+        padding: 15px 40px;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #2a2a2a;
+        color: rgb(168, 168, 168);
+        text-align: center;
+     }
